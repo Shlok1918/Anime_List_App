@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/animeImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/animeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anime Title"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/animeScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score: 8.5"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                />
+
+            <TextView
+                android:id="@+id/animeEpisodes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Episodes: 24"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                />
+
+       </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
