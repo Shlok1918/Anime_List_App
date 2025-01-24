@@ -20,3 +20,7 @@ An app that displays anime details such as title, synopsis, genres, rating, and 
 - No offline support.
 - UI may not be optimized for all screen sizes.
 
+## Video Demo -- 
+
+https://github.com/user-attachments/assets/d4a833d1-26d4-404a-9fba-79ca17965955
+
